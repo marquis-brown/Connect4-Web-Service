@@ -1,5 +1,5 @@
 # Connect4-Web-Service
-A Spring-boot Webservice that communicates Connect 4 game logic to a client GUI
+A Spring-boot Java 2-tier client-server application executes Connect 4 game logic.
 
 Game Objective:
 Connect 4 is a two-player vertical board game where players take turns placing pieces on the board.
