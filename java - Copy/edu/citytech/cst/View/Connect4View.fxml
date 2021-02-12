@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="533.0" style="-fx-background-color: blue;" stylesheets="@Connect4.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.citytech.cst.Controller.Connect4ViewController">
+   <FlowPane fx:id="fpSlots" layoutX="92.0" layoutY="111.0" prefHeight="300.0" prefWidth="350.0">
+   </FlowPane>
+   <Button fx:id="newGame" layoutX="232.0" layoutY="476.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="70.0" text="RESET">
+      <font>
+         <Font name="HP Simplified Jpan Regular" size="15.0" />
+      </font>
+   </Button>
+   <Text id="display" fx:id="winnerDisplay" layoutX="51.0" layoutY="450.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="winnerDisplay" textAlignment="CENTER" wrappingWidth="431.0">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Text>
+   <Text layoutX="198.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="CONNECT 4" textAlignment="CENTER" wrappingWidth="137.97265625" />
+   <Text fx:id="whosTurn" layoutX="172.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="whosTurn" textAlignment="CENTER" wrappingWidth="190.0" />
+</AnchorPane>

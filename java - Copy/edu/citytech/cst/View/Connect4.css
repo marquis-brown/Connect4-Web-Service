@@ -1,0 +1,47 @@
+.label {
+    -fx-font-size: 15;
+    -fx-alignment: center;
+    -fx-shape: "M 100, 100 m -75, 0 a 75,75 0 1,0 150,0 a 75,75 0 1,0 -150,0";
+    -fx-min-height:50;
+    -fx-min-width:50;
+    -fx-border-color: white;
+    -fx-text-fill: blue;
+}
+
+.highlight-red {
+    -fx-background-color: red;
+    -fx-border-color: red;
+    -fx-border-radius: 25px;
+    -fx-text-fill: red;
+}
+
+.highlight-yellow {
+    -fx-background-color: yellow;
+    -fx-border-color: yellow;
+    -fx-border-radius: 25px;
+    -fx-text-fill: yellow;
+}
+
+.title {
+    -fx-font-size: 25;
+    -fx-text-alignment: center;
+    -fx-fill: white;
+}
+
+.whosTurn {
+    -fx-font-smoothing-type: lcd;
+    -fx-fill: white;
+    -fx-font-size: 12pt;
+    -fx-alignment: center;
+}
+
+.winnerDisplay {
+    -fx-font-size: 25;
+    -fx-text-alignment: center;
+    -fx-fill: white;
+}
+
+.URL {
+    -fx-font-size: 9pt;
+    -fx-fill: white;
+}
